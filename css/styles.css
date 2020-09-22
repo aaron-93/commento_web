@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap");
+
+/* Components */
+@import "components/login.css";
+@import "components/navigation.css";
+
+/* Screens */
+@import "screens/index.css";
+@import "screens/main.css";

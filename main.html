@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" tpye="text/css" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main</title>
+  </head>
+  <body class="main">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-user-circle"></i></span>
+            <span class="title">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-comment-alt"></i></span>
+            <span class="title">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-question-circle"></i></span>
+            <span class="title">Help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-cog"></i></span>
+            <span class="title">Setting</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="fas fa-unlock-alt"></i></span>
+            <span class="title">Passwork</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <span class="icon"><i class="fas fa-sign-out-alt"></i></span>
+            <span class="title">Sign out</span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+      <li>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        </a>
+      </li>
+    </ul>
+    </div>
+    
+    <script type="text/javascript">
+      function toggleMenu() {
+        let navigation = document.querySelector(".navigation");
+        let toggle = document.querySelector(".toggle");
+        navigation.classList.toggle("active");
+        toggle.classList.toggle("active");
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/9c0b3c4b43.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
