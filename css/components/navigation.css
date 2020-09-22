@@ -61,36 +61,6 @@
   white-space: nowrap;
 }
 
-.toggle {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 60px;
-  background: #32a3b1;
-  cursor: pointer;
-}
-
-.toggle.active {
-  background: #ea1d63;
-}
-
-.toggle:before {
-  content: "\f0c9";
-  font-family: fontAwesome;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  line-height: 60px;
-  text-align: center;
-  font-size: 24px;
-  color: #fff;
-}
-
-.toggle.active:before {
-  content: "\f00d";
-}
-
 @media (max-width: 767px) {
   .navigation {
     left: -60px;
